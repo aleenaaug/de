@@ -1,9 +1,6 @@
 import os
 from enum import Enum
 from .device_id import DeviceId
-
-#NOTE:  This must be called first before any torch imports in order to work properly!
-
 class DeviceException(Exception):
     pass
 
